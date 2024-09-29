@@ -1,0 +1,18 @@
+{
+  "manifest_version": 3,
+  "name": "Meme Popup",
+  "version": "1.0",
+  "permissions": [
+    "storage",
+    "activeTab"
+  ],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "128": "logo.png"
+    }
+  },
+  "icons": {
+    "128": "logo.png"
+  }
+}
